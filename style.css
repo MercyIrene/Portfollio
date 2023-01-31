@@ -1,0 +1,205 @@
+body {
+    
+    background: linear-gradient( to right, rgb(71, 71, 71) 0%, rgb(36, 179, 155) 50%, rgb(121, 2, 121) 100%);
+    color: white;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    padding-left: 30px;
+}
+
+.logo {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 40px;
+}
+
+.nav-bar {
+    height: 50px;
+    width: 1000px;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    gap: 70px;
+    padding-left: 500px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: azure;
+    font-weight: lighter;
+    font-size: 25px;
+
+}
+
+.nav-bar a:hover {
+    color: red;
+    font-size: 28px;
+    transition: ease-in-out 1s;
+
+}
+
+.mid-main {
+    display: flex;
+    gap: 80px;
+}
+
+.mid {
+    height: 400px;
+    width: 650px; 
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid p:nth-child(1){
+    font-size: 70px;
+}
+
+.mid p:nth-child(2){
+    font-size: 35px;
+}
+
+.btn1 {
+    height: 40px;
+    width: 250px;
+    font-weight: lighter;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btn1:hover {
+    height: 45px;
+    width: 255px;
+    border-radius: 35px;
+    background-color: rgb(32, 173, 3);
+    transition: ease-in .5s;
+    border:  1px solid black;
+    cursor: pointer;
+}
+
+.mypic img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.footer {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    font-size: 45px;
+    transition: .5s ease-in-out;
+    color: blue;
+}
+
+
+.mainCon{
+    margin-top: 30px;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    gap: 390px;
+}
+
+.form {
+    width: 350px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(2, 42, 61);
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.form h1 {
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 78px;
+}
+
+.form input[type=text]{
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+}
+
+.form input[type=submit]{
+    background-color: red;
+    color: white;
+    width: 350px;
+    height: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.form input[type=text]:hover{
+    width: 300px;
+    height: 35px;
+    border: 2px solid rgb(0, 255, 0);
+    font-size: 20px;
+    transition: .5s ease-in-out;
+}
+
+.form input[type=submit]:hover {
+    background-color: green;
+    transition: .5s ease-in-out;
+    color: white;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.footer2 {
+
+    width: 100px;
+    height: 350px;
+    display: block;
+}
+
+.footer2 a {
+    margin-top: 50px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.footer2 a:hover {
+    font-size: 35px;
+    transition: .5s ease-in-out;
+    color: blue;
+}
